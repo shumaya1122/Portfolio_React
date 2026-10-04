@@ -10,7 +10,7 @@ function About() {
       <section className="panel about">
         <figure className="about-figure">
           <img
-            src="/images/profile.jpeg"
+            src={`${import.meta.env.BASE_URL}images/profile.jpeg`}
             alt="Photo of Shumaya Jannat Hera"
           />
 
@@ -61,7 +61,7 @@ function About() {
           <p>
             <a
               className="btn btn-ghost"
-              href="/files/Shumaya_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}files/Shumaya_Resume.pdf`}
               download
             >
               Download My Resume (PDF)

@@ -11,7 +11,7 @@ function Projects() {
       <article className="project">
         <div className="project-media">
           <img
-            src="/images/project1.jpeg"
+            src={`${import.meta.env.BASE_URL}images/project1.jpeg`}
             alt="Smart Study Group Finder project image"
           />
         </div>
@@ -58,7 +58,7 @@ function Projects() {
       <article className="project">
         <div className="project-media">
           <img
-            src="/images/project2.jpeg"
+            src={`${import.meta.env.BASE_URL}images/project2.jpeg`}
             alt="AI-Enhanced Smart Library and Study System project image"
           />
         </div>
@@ -108,7 +108,7 @@ function Projects() {
       <article className="project">
         <div className="project-media">
           <img
-            src="/images/project3.jpeg"
+            src={`${import.meta.env.BASE_URL}images/project3.jpeg`}
             alt="Colours of Bangladeshi Culture website screenshot"
           />
         </div>

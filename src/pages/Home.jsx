@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <main>
@@ -22,23 +24,23 @@ function Home() {
           </p>
 
           <div className="hero-actions">
-            <a className="btn btn-solid" href="/about">
+            <Link className="btn btn-solid" to="/about">
               About Me
-            </a>
+            </Link>
 
-            <a className="btn btn-ghost" href="/projects">
+            <Link className="btn btn-ghost" to="/projects">
               View My Projects
-            </a>
+            </Link>
 
-            <a className="btn btn-ghost" href="/contact">
+            <Link className="btn btn-ghost" to="/contact">
               Contact Me
-            </a>
+            </Link>
           </div>
         </div>
 
         <figure className="hero-figure">
           <img
-            src="/images/profile.jpeg"
+            src={`${import.meta.env.BASE_URL}images/profile.jpeg`}
             alt="Photo of Shumaya Jannat Hera"
           />
         </figure>

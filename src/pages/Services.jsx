@@ -10,7 +10,7 @@ function Services() {
       {/* Programming */}
       <section className="panel service">
         <img
-          src="/images/programming.png"
+          src={`${import.meta.env.BASE_URL}images/programming.png`}
           alt="Programming"
         />
 
@@ -30,7 +30,7 @@ function Services() {
       {/* Web Development */}
       <section className="panel service">
         <img
-          src="/images/webDevelopment.png"
+          src={`${import.meta.env.BASE_URL}images/webDevelopment.png`}
           alt="Web Development"
         />
 
@@ -49,7 +49,7 @@ function Services() {
       {/* AI & Machine Learning */}
       <section className="panel service">
         <img
-          src="/images/AiMAchineLearning.png"
+          src={`${import.meta.env.BASE_URL}images/AiMAchineLearning.png`}
           alt="AI and Machine Learning"
         />
 
@@ -71,7 +71,7 @@ function Services() {
       {/* Database Development */}
       <section className="panel service">
         <img
-          src="/images/database.png"
+          src={`${import.meta.env.BASE_URL}images/database.png`}
           alt="Database Development"
         />
 
@@ -90,7 +90,7 @@ function Services() {
       {/* Software Requirements & System Design */}
       <section className="panel service">
         <img
-          src="/images/software.png"
+          src={`${import.meta.env.BASE_URL}images/software.png`}
           alt="Software Requirements and System Design"
         />
 
